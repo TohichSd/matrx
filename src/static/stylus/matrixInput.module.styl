@@ -1,0 +1,22 @@
+.matrix-input
+  display inline-block
+  font-size 20px
+  
+  textarea
+    display block
+    margin 0 auto
+    width 150px
+    height 50px
+    
+    &.error
+      border-color red
+      
+      &:focus
+        outline: 1px solid red
+        
+  button
+    display block
+    margin 5px auto
+    
+    &.error
+      cursor not-allowed
